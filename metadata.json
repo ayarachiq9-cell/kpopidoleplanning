@@ -1,0 +1,6 @@
+{
+  "name": "K-Pop Trainee Companion",
+  "description": "Application complète d'entraînement et de coaching pour futurs artistes K-Pop : chant, danse, rap, sport, coréen, soin, nutrition et accompagnement IA.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
