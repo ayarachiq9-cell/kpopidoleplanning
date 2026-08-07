@@ -43,10 +43,13 @@ export const Navigation: React.FC<NavigationProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
         <div className="flex items-center gap-3.5">
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-500 to-amber-400 rounded-2xl blur-sm opacity-40 group-hover:opacity-70 transition duration-300"></div>
-            <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center text-white shadow-md">
-              <Sparkles className="w-5 h-5 fill-current animate-pulse text-pink-200" />
-            </div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-500 to-amber-400 rounded-2xl blur-sm opacity-40 group-hover:opacity-80 transition duration-300"></div>
+            <img
+              src="/src/assets/images/kpop_academy_logo_1786144702079.jpg"
+              alt="K-Pop Trainee Companion Logo"
+              referrerPolicy="no-referrer"
+              className="relative w-11 h-11 rounded-xl object-cover border border-purple-400/50 shadow-md transform group-hover:scale-105 transition-all"
+            />
           </div>
           <div>
             <div className="flex items-center gap-2">
